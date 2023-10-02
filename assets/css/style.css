@@ -1,0 +1,101 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgb(0, 0, 0);
+    
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+   
+.container {
+    font-size: 24px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1000 ;
+    
+}
+
+.container2 {
+    font-size: 24px;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    z-index: 1000 ;
+    
+}
+
+.intro {
+    width: 100%;
+    height: 100%;
+    background: rgb(166,166,166);
+    background: linear-gradient(180deg, rgba(166,166,166,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
+    position: absolute ;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+}
+
+#bottom-right-image {
+    position: center;
+    bottom: 0;
+    right: 0;
+    width: 100%; /* Змініть розмір за потребою */
+    height: auto; /* Автоматична висота для збереження співвідношення сторін */
+    border: 2px solid #ffffff;
+}
+
+.telegram-button {
+    display: inline-block;
+    background: #0088cc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.telegram-logo {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.gmail-button {
+    display: inline-block;
+    background: #D14836;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gmail-logo {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
