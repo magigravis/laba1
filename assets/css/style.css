@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6 {
     position: center;
     bottom: 0;
     right: 0;
-    width: 100%; /* Змініть розмір за потребою */
-    height: auto; /* Автоматична висота для збереження співвідношення сторін */
+    width: 100%; 
+    height: auto;
     border: 2px solid #ffffff;
 }
 
